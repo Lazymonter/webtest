@@ -18,11 +18,11 @@
         <div class="title" >
           
         </div>
-      <!-- 服务器信息管理 -->
+      <!-- 个人信息管理 -->
       <el-submenu  index="1" >
         <template slot="title">
           <div class="nav-icon icon-computer"></div>
-          <span>服务器管理</span>
+          <span>个人信息管理</span>
         </template>
         <el-menu-item-group>
       
@@ -32,11 +32,11 @@
           <el-menu-item index="1-4" @click="towebssh">远程登录</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
-      <!-- 任务管理 -->
+      <!-- 业务管理 -->
        <el-submenu  index="2" >
         <template slot="title">
           <div class="nav-icon icon-task"></div>
-          <span>任务管理</span>
+          <span>业务管理</span>
         </template>
         <el-menu-item-group>
           <el-menu-item index="2-1"  @click="toAnsibletask" >简单任务</el-menu-item>
@@ -44,11 +44,11 @@
         </el-menu-item-group>
       </el-submenu>
 
-      <!-- 流量模块 -->
+      <!-- 人工客服管理 -->
        <el-submenu  index="3" >
         <template slot="title">
           <div class="nav-icon icon-network"></div>
-          <span>流量分析</span>
+          <span>人工客服管理</span>
         </template>
         <el-menu-item-group>
        
@@ -56,11 +56,11 @@
           <el-menu-item index="3-2" @click="tonetflowcheck">流量详情</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
-       <!-- 数据库模块 -->
+       <!-- 模型训练 -->
        <el-submenu  index="4" >
         <template slot="title">
           <div class="nav-icon icon-database"></div>
-          <span>数据库管理</span>
+          <span>模型训练</span>
         </template>
         <el-menu-item-group>
      
